@@ -1,0 +1,98 @@
+
+body {
+    font-family: Rubik Iso;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+.btn {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #8fff00;
+    padding: 7%;
+    text-decoration: none;
+    border-radius: 5px;
+   
+}
+
+.btn:hover {
+    background-color: #e68300;
+}
+
+#about {
+    padding: 20%;
+}
+
+.proyek-item {
+    margin: 20%;
+    text-align: center;
+}
+
+.proyek-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+    background-color: #f4f4f4;
+    padding: 20%;    
+    text-align: center;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 2rem;
+}
+
+.member {
+    text-align: center;
+    margin: 1rem;
+}
+
+img {
+    width: 75px;
+    height: auto;
+    border: 1px solid #ddd;    
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
