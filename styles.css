@@ -1,4 +1,3 @@
-
 body {
     font-family: Rubik Iso;
     margin: 0;
@@ -16,24 +15,38 @@ header {
     margin-left: 1rem;
 }
 
-.nav-links {
-    list-style: none;
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
     display: flex;
-    margin-right: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.left {
+    display: flex;
+    align-items: center;
 }
 
-.nav-links li {
-    margin-right: 1rem;
+.left img {
+    height: 50px;
+    margin-right: 20px;
 }
-
-.nav-links a {
-    color: #fff;
+.warna {
+ background-color:#f3f4f5;
+ top:50px;
+}
+.right a {
     text-decoration: none;
-    transition: color 0.3s;
+    color: white;
+    margin-left: 20px;
 }
-
-.nav-links a:hover {
-    color: #ff9900;
+.right a:hover {
+    text-decoration: underline;
 }
 .btn {
     display: inline-block;
